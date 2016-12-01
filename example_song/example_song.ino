@@ -39,12 +39,12 @@ int frequency(char note)
   
   
   int m;
-  const int numNotes = 8;  
+  const int numNotes = 9;  
   
  
 
-  char names[] = { 'c', 'd', 'e', 'f', 'g', 'a', 'b', 'C' };
-  int frequencies[] = {262, 294, 330, 349, 392, 440, 494, 523};
+  char names[] = { 'c', 'd', 'e', 'f','u', 'g', 'a', 'b', 'C' };
+  int frequencies[] = {262, 294, 330, 349, 370, 392, 440, 494, 523};
   
 
   
