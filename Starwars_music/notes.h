@@ -6,7 +6,9 @@
 #define QN   beatLength    // ...a quarter note...
 #define EN   beatLength/2  // ...an eighth note...
 #define SN   beatLength/4  // ...and a sixteenth note.
-
+#define DE   beatLength/1.5  // ... a dotted eighth note
+#define DQ   beatLength*1.5  // ... a dotted Quarter note
+#define DH   beatLength*3  // ... a dotted half note
 // These are pre-written #defines for every note on a piano
 #define Rest 0
 #define noteC0 16
