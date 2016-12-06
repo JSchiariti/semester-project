@@ -82,7 +82,7 @@ void loop() {
   playNote( noteD4, DE);
   playNote( noteA3, SN);
   playNote( noteA3, HN);
-  playNote( Rest 0, EN);
+  playNote( Rest, EN);
   playNote( noteD3, EN);
 
   playNote( noteE3, DQ);
@@ -166,6 +166,6 @@ void loop() {
 void playNote(int note, int duration)
 {
   tone(buzzerPin, note, duration);
-  delay(dur
+  delay(duration);
 }
 
